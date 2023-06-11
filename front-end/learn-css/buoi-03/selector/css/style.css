@@ -1,0 +1,44 @@
+h3 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+#title {
+    color: aqua;
+}
+
+.title {
+    color: orange;
+}
+
+/* 
+Độ ưu tiên:
+0. !important
+1. inline
+2. id
+3. class
+4. tagName
+*/
+
+.content > .children > h1 {
+    color: blue;
+}
+
+.element > h1 {
+    color: blueviolet;
+}
+
+.menu > li > a {
+    color: palevioletred;
+}
+
+h1.page-title.first#feature {
+    color: saddlebrown;
+}
+
+h2.page-title.last#item {
+    color: cadetblue;
+}
