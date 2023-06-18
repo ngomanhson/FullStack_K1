@@ -1,0 +1,47 @@
+.title:hover {
+    color: red;
+    transition: 0.2s linear;
+}
+
+.btn:active {
+    background: green;
+    color: #fff;
+}
+
+.btn:focus {
+    background: blueviolet;
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    background: gold;
+}
+
+.sub-title:active {
+    color: green;
+}
+
+.sub-title:focus {
+    color: green;
+}
+
+.form-item:disabled {
+    background: grey;
+}
+
+.content h2:not(.active) {
+    color: red;
+}
+
+.products .item:first-of-type {
+    color: blueviolet;
+}
+
+.products .item:last-of-type {
+    color: orange;
+}
+
+.post h2:nth-of-type(2n + 1) {
+    color: red;
+}

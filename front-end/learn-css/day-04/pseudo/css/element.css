@@ -1,0 +1,39 @@
+.title::before {
+    content: "<";
+    color: red;
+}
+
+.title::after {
+    content: ">";
+    color: blueviolet;
+}
+
+.contact::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 50px;
+    background: orange;
+}
+
+.content::first-line {
+    color: blueviolet;
+}
+
+.content::first-letter {
+    font-size: 30px;
+}
+
+.content p::selection {
+    background: #000;
+    color: #fff;
+}
+
+.email {
+    color: #000;
+    caret-color: #f00;
+}
+
+.email::placeholder {
+    color: blueviolet;
+}

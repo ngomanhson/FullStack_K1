@@ -1,0 +1,21 @@
+h1 ~ ul {
+    color: red;
+}
+
+.content h2 ~ p,
+.content h2 ~ .children p {
+    color: red;
+}
+
+.todolist input:checked ~ span {
+    color: red;
+    text-decoration: line-through;
+}
+
+.menu li + li + li a {
+    color: red;
+}
+
+.element h1 + p {
+    color: red;
+}

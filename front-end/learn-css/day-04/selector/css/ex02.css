@@ -1,0 +1,29 @@
+/* .links li a[target] {
+    color: red;
+}
+
+.links li a[href="https://vnexpress.net"]
+{
+    color: green;
+}
+
+.links li a[href^="https://fullstack.edu.vn"]
+{
+    color: rgb(255, 174, 187);
+}
+
+.links li a[href$=".vn"] {
+    color: orange;
+} */
+
+.links li a[href*="fullstack.edu.vn"] {
+    color: red;
+}
+
+[class^="col"] {
+    color: red;
+}
+
+[class*="-"] {
+    color: blue;
+}
