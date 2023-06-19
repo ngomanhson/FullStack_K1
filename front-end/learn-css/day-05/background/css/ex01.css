@@ -1,0 +1,15 @@
+body {
+    /* background-color: #000;
+    background-image: url("../images/img-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed; */
+    background: url("../images/img-01.png") no-repeat top left / cover fixed #000;
+    height: 1000px;
+}
+
+/* .content {
+     background-color: #9292924d;
+    color: #fff;
+} */

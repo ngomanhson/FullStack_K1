@@ -1,0 +1,61 @@
+/* === px, em, rem === */
+/* html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.content {
+    font-size: 1.2em;
+}
+
+.element {
+    font-size: 1.5rem;
+}
+
+.container {
+    font-size: 1.1em;
+}
+
+.children {
+    font-size: 1.1em;
+} */
+
+/* === line-height === */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"); */
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.5;
+}

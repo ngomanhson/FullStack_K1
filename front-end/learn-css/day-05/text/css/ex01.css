@@ -1,0 +1,36 @@
+/* === initial === */
+
+/* .content {
+    color: red;
+}
+
+.content:hover {
+    color: initial;
+}
+
+.title {
+    color: orange;
+}
+
+.title::before {
+    content: "<";
+    color: initial;
+} */
+
+/* === inherit === */
+
+body {
+    color: darkmagenta;
+}
+
+.content {
+    color: inherit;
+}
+
+.content p {
+    color: inherit;
+}
+
+.title {
+    color: inherit;
+}
