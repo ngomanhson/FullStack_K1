@@ -1,0 +1,14 @@
+.content {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+
+    /* overflow: auto; */
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.content ul {
+    width: 500px;
+}

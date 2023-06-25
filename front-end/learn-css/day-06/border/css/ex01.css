@@ -1,0 +1,35 @@
+.content {
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+
+    /* border: 3px double red; */
+
+    /* border-left: 3px solid green;
+    border-top: 3px solid blueviolet;
+    border-right: 3px solid red;
+    border-bottom: 3px solid orange; */
+
+    border-top-width: 1px;
+    border-right-width: 2px;
+    border-bottom-width: 3px;
+    border-left-width: 4px;
+
+    border-style: solid;
+}
+
+.content:hover {
+    /* border-color: green; */
+    /* border-bottom: 1px solid blueviolet; */
+    border-bottom-color: blueviolet;
+}
+
+.box {
+    width: 10px;
+    height: 10px;
+    border-width: 100px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: red;
+    box-sizing: border-box;
+}
