@@ -1,0 +1,44 @@
+/* 
+    float: none | left | right;
+*/
+
+.box {
+    border: 1px solid #f00;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: #fff;
+    float: left;
+}
+
+.col-2 {
+    width: 100px;
+    height: 120px;
+    background: red;
+    color: #fff;
+    float: left;
+}
+
+.col-3 {
+    width: 100px;
+    height: 150px;
+    background: blue;
+    color: #fff;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}

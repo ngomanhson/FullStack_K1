@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 2000px;
+}
+
+.box {
+    width: 400px;
+    /* height: 400px; */
+    border: 1px solid red;
+    margin: 30px auto;
+    position: relative;
+}
+
+.box h2 {
+    padding: 10px;
+    background: green;
+    border: 1px solid #fff;
+    width: 200px;
+    color: #fff;
+}
+
+.item-2 {
+    /* margin-top: 10px;
+    margin-left: 20px; */
+
+    /* position: relative; */
+
+    /* top: -20px;
+    left: calc(100% - 200px); */
+
+    /* top: 50%;
+    left: 50%; */
+
+    /* top: 20px;
+    z-index: 1; */
+
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0; */
+    /* height: 50px; */
+}
+
+.item-3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+/* 
+    position: Thay đổi vị trí các element
+    -static: Không có position
+    -relative: Tương đối
+    -absolute: Tuyệt đối
+    -fixed: Cố định
+
+    Khi sử dụng position (Trừ static) có 5 thuộc tính: 
+    -top
+    -right
+    -bottom
+    -left
+*/

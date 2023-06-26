@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border: 1px solid #f00;
+}
+
+.first {
+    margin-bottom: 25px;
+}
+
+.last {
+    margin-top: 25px;
+}
+
+.title::before {
+    content: attr(data-text);
+}

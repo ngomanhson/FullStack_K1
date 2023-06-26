@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product {
+    width: 300px;
+    margin: 30px auto;
+    border: 1px solid #efefef;
+    position: relative;
+}
+
+.product .product-info {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.product .product-image {
+    position: relative;
+}
+
+.product .sale-off {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: red;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.product .overlay {
+    display: none;
+    position: absolute;
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    inset: 0;
+    background: #00000071;
+}
+
+.product:hover .overlay {
+    display: block;
+}
+
+.product:hover .product-info {
+    color: #fff;
+}

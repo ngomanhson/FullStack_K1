@@ -1,0 +1,17 @@
+* {
+    filter: grayscale(1);
+}
+
+/* .gallery img {
+    filter: grayscale(1);
+}
+
+.gallery img:hover {
+    filter: initial;
+    opacity: 0.8;
+} */
+
+.map iframe {
+    width: 100%;
+    filter: invert(100%);
+}

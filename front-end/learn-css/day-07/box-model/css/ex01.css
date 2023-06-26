@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    /* margin: 30px; */
+    /* border: 5px solid #f00; */
+    /* padding: 30px; */
+    width: 400px;
+    height: 300px;
+    border: 5px solid #f00;
+    padding: 30px;
+    margin: 30px;
+    /* box-sizing: border-box; */
+}
