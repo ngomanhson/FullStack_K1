@@ -92,4 +92,4 @@ Nếu lần đầu: git clone link_repo
 -   flex-basis
 
 *   Bị chặn bởi min-width và max-width nếu flex-direction = row
-*   Bị chặn bởi min-height và max-height nếu flex-direction = row
+*   Bị chặn bởi min-height và max-height nếu flex-direction = column
