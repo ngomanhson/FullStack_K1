@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    border: 1px solid #f00;
+    margin: 0 auto;
+}
+
+.box ul {
+    /* list-style-position: outside; */
+    /* list-style-position: inside; */
+
+    /* list-style-type: none; */
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: upper-roman; */
+
+    list-style: inside disc;
+}
+
+.songs {
+    border: 1px solid #f00;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.songs h2 {
+    display: list-item;
+    list-style: inside decimal;
+}
