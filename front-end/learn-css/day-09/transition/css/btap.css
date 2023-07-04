@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background: #0f0;
+    color: #fff;
+    border: none;
+    font-style: 1.1rem;
+    border-radius: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    background: #f00;
+    border-radius: inherit;
+    transition: all 0.3s linear;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background: #00f;
+    border-radius: inherit;
+    transition: all 0.3s linear;
+}
+
+.btn:hover::before {
+    background: #f00;
+    right: 50%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn:hover::after {
+    left: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

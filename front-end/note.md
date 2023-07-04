@@ -91,5 +91,30 @@ Nếu lần đầu: git clone link_repo
 
 -   flex-basis
 
+-   align-self
+
 *   Bị chặn bởi min-width và max-width nếu flex-direction = row
 *   Bị chặn bởi min-height và max-height nếu flex-direction = column
+
+## Variables
+
+-   Biếm trong Css
+
+*   Biến toàn cục: Sử dụng khắp mọi nơi (Tính từ chỗ khai báo)
+*   Biến cục bộ: Chỉ sử dụng bên trong Selector đã khai báo (Áp dụng với tất cả selector con)
+
+## Transition
+
+-   transition-properties: all | tên thuộc tính (Mỗi thuộc tính cách nhau bởi dấu ,)
+
+-   transition-duration: ms, s
+
+-   transition-timing-function:
+
+*   linear: tốc độ đều
+*   ease
+*   ease-in
+*   ease-out
+*   ease-in-out
+
+-   transition-delay

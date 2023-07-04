@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid #f00;
+    margin: 30px auto;
+}
+
+.row {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.item {
+    background: #0f0;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+}
+
+/* .item:nth-child(4) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item:nth-child(3) {
+    align-self: center;
+}*/
+
+/* 
+    Sắp xếp: item 3 => item 1 => item 4 => item 2
+*/
+
+.item:nth-child(3) {
+    order: 1;
+}
+
+.item:nth-child(1) {
+    order: 2;
+}
+
+.item:nth-child(4) {
+    order: 3;
+}
+
+.item:nth-child(2) {
+    order: 4;
+}

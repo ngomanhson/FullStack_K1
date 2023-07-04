@@ -1,0 +1,19 @@
+.content {
+    border: 1px solid #000;
+}
+
+.content h1 {
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s; */
+
+    transition: all 0.4s linear;
+}
+
+.content h1:hover {
+    --color: #f00;
+    padding-left: 100px;
+    color: var(--color);
+    border: 1px solid var(--color);
+}

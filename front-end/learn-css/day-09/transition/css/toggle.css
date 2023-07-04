@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle {
+    width: 60px;
+    height: 30px;
+    display: block;
+    margin: 30px auto;
+    background: gray;
+    border-radius: 99px;
+    position: relative;
+}
+
+.toggle input {
+    display: none;
+}
+
+.toggle .btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.2s linear;
+    z-index: 1;
+}
+
+.toggle .bg {
+    position: absolute;
+    inset: 0;
+    border-radius: 99px;
+    transition: all 0.2s linear;
+}
+
+.toggle input:checked ~ .btn {
+    left: calc(100% - 30px);
+}
+
+.toggle input:checked ~ .bg {
+    background: #0f0;
+}
