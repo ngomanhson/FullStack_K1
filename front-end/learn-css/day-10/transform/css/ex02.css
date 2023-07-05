@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f00;
+    margin: 30px auto;
+    position: relative;
+}
+
+.btn {
+    background: #0f0;
+    border: none;
+    color: #fff;
+    display: block;
+    padding: 15px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
