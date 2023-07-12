@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 30px auto;
+}
+
+.menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item li a {
+    color: #333;
+}
+
+.menu-item li a::after {
+    content: "\f078";
+    font-family: Fontawesome;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: purple;
+}
+
+.logo {
+    width: 150px;
+}
+
+.btn-cta {
+    padding: 15px 25px;
+    background: rgb(161, 21, 196);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.menu-burger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-item li a,
+    .btn-cta {
+        display: none;
+    }
+
+    .menu-burger {
+        display: block;
+    }
+
+    .menu-burger .menu-icon {
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: #333;
+    }
+
+    .menu-burger input[type="checkbox"] {
+        display: none;
+    }
+
+    .nav-mobile {
+        padding: 30px;
+        background: #161718;
+        position: absolute;
+        inset: 0 40% 0 0;
+        transform: translateX(-100%);
+        transition: all 0.3s ease;
+        z-index: 2;
+    }
+    .overlay {
+        display: block;
+        position: fixed;
+        inset: 0;
+        background: #000000b9;
+        visibility: hidden;
+        transition: all 0.2s ease;
+    }
+
+    .mobile-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-top i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        list-style: 30px;
+        border-radius: 50%;
+        background: rgb(86, 86, 86);
+    }
+
+    .logo-text {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .menu-mobile {
+        margin-top: 30px;
+    }
+
+    .menu-mobile li a {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+        padding: 15px 25px 15px 0;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .menu-mobile li a::after {
+        content: "\f078";
+        font-family: Fontawesome;
+        font-size: 1.2rem;
+        position: absolute;
+        right: 0;
+    }
+
+    .menu-burger input[type="checkbox"]:checked ~ .nav-mobile {
+        transform: translateX(0);
+    }
+
+    .menu-burger input[type="checkbox"]:checked ~ .overlay {
+        visibility: visible;
+    }
+}
