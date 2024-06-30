@@ -1,0 +1,42 @@
+.header {
+    $padding: 10px; // Biến cục bộ
+    .topbar {
+        .divider {
+            background: #000;
+            height: 10px;
+        }
+
+        .topbar-left {
+            padding: 10px 0;
+        }
+
+        .topbar-right {
+            text-align: right;
+            li > a {
+                list-style: none;
+            }
+        }
+    }
+
+    .header-inner {
+        padding: 20px 0;
+
+        .menu {
+            > li {
+                > a {
+                    display: block;
+                    &:hover {
+                        color: red;
+                        text-decoration: underline;
+                        &::after {
+                            content: "";
+                        }
+                    }
+                    &::before {
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+}
